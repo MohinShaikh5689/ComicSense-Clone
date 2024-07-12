@@ -1,0 +1,144 @@
+[{
+    "id": 1,
+    "name": "wings of freedom Binie",
+    "price":800,
+    "image":"Latest drop/aot_beanie_listing3-1-scaled.webp"
+},
+{
+    "id": 2,
+    "name": "Brand of Sacrifice binie",
+    "price":800,
+    "image":"Latest drop/berserk_beanie_lsiting2_hitanshi-scaled.webp"
+},
+{
+    "id": 3,
+    "name": "Soul Society Binie",
+    "price":800,
+    "image":"Latest drop/bleach_beanie_listing3-scaled.webp"
+},
+{
+    "id": 4,
+    "name": "Vacation in Malasiya Hoodie",
+    "price":800,
+    "image":"Latest drop/jjk_nanami_hoodie_listing1_hitanshi-scaled.webp"
+},
+{
+    "id": 5,
+    "name": "Manicing Benie",
+    "price":800,
+    "image":"Latest drop/jojo_beanie_listing1-1-scaled.webp"
+},
+{
+    "id": 6,
+    "name": "King of Curses Binie",
+    "price":800,
+    "image":"Latest drop/sukuna_beanie_lsiting1_hitanshi-scaled.webp"
+},
+{
+    "id": 7,
+    "name": "Ace Hoodie",
+    "price":1700,
+    "image":"winter wear/onepiece_naruto_hoodie_listing7_hitanshi-scaled.webp"
+},
+{
+    "id": 8,
+    "name": "Bleach Captain Jacket",
+    "price":2000,
+    "image":"winter wear/bleach_captainshaori_hoodie_listing7_hitanshi-1-scaled.webp"
+},
+{
+    "id": 9,
+    "name": "ChainsawMan Hoodie",
+    "price":1800,
+    "image":"winter wear/chainsaw_front1_comicsense.webp"
+},
+{
+    "id": 10,
+    "name": "Draken Jacket",
+    "price":1800,
+    "image":"winter wear/draken_bomber_compressed.webp"
+},
+{
+    "id": 11,
+    "name": "Level up Hoodie",
+    "price":2199,
+    "image":"winter wear/solo_leveling_hoodie_front_comicsense-2.webp"
+},
+{
+    "id": 12,
+    "name": "Nakama Hoodie",
+    "price":2499,
+    "image":"winter wear/nakama_oneoiece_hoodie_hitanshi_listing-8-768x1024.webp"
+},
+{
+    "id": 13,
+    "name": "Captai Levi",
+    "price":1499,
+    "image":"figurines/bp19022__6_comicsense.webp"
+},
+{
+    "id": 14,
+    "name": "Sasuke",
+    "price":1499,
+    "image":"figurines/sasuke-closeeup_comicsense.webp"
+},
+{
+    "id": 15,
+    "name": "Android 18",
+    "price":1499,
+    "image":"figurines/dragonballz_android18_bp17506_banpresto_hitanshi-scaled.webp"
+},
+{
+    "id": 16,
+    "name": "Himiko Toga",
+    "price":2499,
+    "image":"figurines/toga_himika-closeeup_comicsense.webp"
+},
+{
+    "id": 17,
+    "name": "SSJ Trunks",
+    "price":2499,
+    "image":"figurines/dragonballz_supersaiyantrunks_bp117507_banpresto5_hitanshi-scaled.webp"
+},
+{
+    "id": 18,
+    "name": "Daki & Gyotaro",
+    "price":2499,
+    "image":"figurines/daki-versus-gyutaro_comicsense.webp"
+},
+{
+    "id": 19,
+    "name": "AOT:No Regrets Vol 2",
+    "price":699,
+    "image":"manga/AttackOnTitan_FinalVolZ_1_comicsense.webp"
+},
+{
+    "id": 20,
+    "name": "Berserk Vol 2",
+    "price":699,
+    "image":"manga/berserk-_vol-13-_manga_listing1-_priyanka-scaled.webp"
+},
+{
+    "id": 21,
+    "name": "Blue Lock vol 4",
+    "price":699,
+    "image":"manga/blue-lock-_vol-4-_manga_listing1-_priyanka-scaled.webp"
+},
+{
+    "id": 22,
+    "name": "Wotakoi vol 2",
+    "price":1299,
+    "image":"manga/wotakoi-_vol-2-_manga_listing1-_priyanka-scaled.webp"
+},
+{
+    "id": 23,
+    "name": "Tokyo Ghoul vol2",
+    "price":699,
+    "image":"manga/tokyo-ghoul-vol-1_comicsense.webp"
+},
+{
+    "id": 24,
+    "name": "Tokyo Revengers vol 5-6",
+    "price":1399,
+    "image":"manga/tokyo-reveners-_vol-5-6_manga_listin1-_priyanka-scaled.webp"
+}]

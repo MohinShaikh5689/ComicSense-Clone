@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senpai's Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+
+      <div class="nav">
+        <ul>
+          <li><img src="assets/discord.svg" alt=""></li>
+          <li><img src="assets/instagram-svgrepo-com.svg" width="18px" alt=""></li>
+          <li>Track order</li>
+          <li>Offers and Coupons</li>
+          <li>Need Help ?</li>
+        </ul>
+      </div>
+
+      <div class="nav1">
+
+
+        <div class="nav1-1">
+
+          <ul>
+            <li class="popup-menu">
+              <p class="pointer">Top Catagories</p>
+              <div class="menu-items">
+                <a href="#">Hoodies/Jackets</a>
+                <a href="#">Oversize Tees</a>
+                <a href="#">Shirts (Hawaiian)</a>
+                <a href="#">Beanie</a>
+                <a href="#">Body Pillow <br> Covers</a>
+                <a href="#">Manga</a>
+                <a href="#">Wall Decor</a>
+                <a href="#">Figurines</a>
+                <a href="#">Cosplay</a>
+                <a href="#">Stickers</a>
+              </div>
+            </li>
+
+            <li class="popup-menu1">
+              <p class="pointer">Shop by Anime</p>
+
+              <div class="menu-items1">
+                <div class="pop">
+                  <div class="pop1">
+                    <a href="#">Anime Movies</a>
+                    <a href="#">Aot</a>
+                    <a href="#">Assasination Classroom</a>
+                    <a href="#">Berserk</a>
+                    <a href="#">Bleach</a>
+                    <a href="#">Black Clover</a>
+
+                  </div>
+
+                  <div class="pop1">
+                    <a href="#">Blue Lock</a>
+                    <a href="#">Chainsawa Man</a>
+                    <a href="#">Cowboy Bebop</a>
+                    <a href="#">Darling In The Franxx</a>
+                    <a href="#">Death Note</a>
+                    <a href="#">Demon Slayer</a>
+
+                  </div>
+
+                  <div class="pop1">
+                    <a href="#">Dr. Stone</a>
+                    <a href="#">Dragon Ball</a>
+                    <a href="#">Fairy Tail</a>
+                    <a href="#">Fullmetal Alchemist</a>
+                    <a href="#">Gintama</a>
+                    <a href="#">Haikyuu </a>
+
+                  </div>
+
+                  <div class="pop1">
+                    <a href="#">Hunter x Hunter</a>
+                    <a href="#">JoJo</a>
+                    <a href="#">Jujutsu Kaisen</a>
+                    <a href="#">Mob Psycho 100</a>
+                    <a href="#">My Hero Academia</a>
+                    <a href="#">My Neighbor Totoro</a>
+
+                  </div>
+
+                  <div class="pop1">
+                    <a href="#">Shinobi</a>
+                    <a href="#">One Piece</a>
+                    <a href="#">One Punch Man</a>
+                    <a href="#">Senpai's Collection</a>
+                    <a href="">Spy x Family</a>
+                    <a href="">Solo Leveling</a>
+
+                  </div>
+
+                  <div class="pop1">
+                    <a href="#">Tokyo Ghoul</a>
+                    <a href="#">Tokyo Revengers</a>
+                    <a href="#">Your Name</a>
+
+
+                  </div>
+
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+            <li>
+              <p class="pointer"> by Product </p>
+            </li>
+            <li>
+              <p class="pointer"> Combos </p>
+            </li>
+          </ul>
+
+
+        </div>
+
+
+        <div class="nav1-2">
+          <ul>
+            <li class="none" onclick="openNav()">
+              <i class="fa fa-bars" style="font-size:15px"></i>
+            </li>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <input type="text" name="search" placeholder="Search merch">
+              <a href="#">Apparel</a>
+              <a href="#">Non-Apparel</a>
+              <a href="#">Catagories of culture</a>
+              <a href="#">Bizzare Anime Finds</a>
+              <a href="#">Combos</a>
+              <a href="#">No Restock Zone</a>
+              <a href="#">Last Chance to Buy</a>
+
+            </div>
+
+            <li><img id="logo" src="comic-sense-logo_minimal.webp" width="150px" alt=""></li>
+            <li><input id="search" type="text" placeholder="Search merch"></li>
+            <li><i class='fa fa-user-o' style='color: white'></i></li>
+            <li><i class="fa fa-heart-o"></i></li>
+
+            <li onclick="openCart()">
+              <i class="fa fa-shopping-cart"></i>
+              <!-- <span class="quantity">0</span>-->
+            </li>
+
+            <div class="cart" id="cart">
+
+              <div>
+                <span onclick="closeCart()"><i class="fa fa-close"></i></span>
+                <h2>shopping-cart</h2>
+              </div>
+              <div id="cart1">
+
+
+              </div>
+
+              <div class="checkout">
+                <button id="checkoutButton">checkout</button>
+                <button id="emptyCartButton">Clearall</button>
+              </div>
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+
+    <div class="image-container">
+      <div class="image-slider">
+        <img src="img slider/banbnr-tees.webp">
+        <img src="img slider/banner-manga.webp">
+        <img src="img slider/freebieoffer_shivam.webp">
+        <img src="img slider/winter-wear-banner-3.webp">
+      </div>
+  </header>
+
+  <main>
+            <h1 align="center">LATEST DROP</h1>
+
+
+                  <div id="ListProduct" class="ListProduct">
+
+                  </div>
+
+
+            <h1 align="center">Trendy Winter Gear</h1>
+
+                  <div id="ListProduct1" class="ListProduct">
+
+                 </div>
+
+            <h1 align="center">Top Catagories</h1>
+
+            <div class="Top">
+
+              <img src="Top catagories/Untitled-1-1.webp" alt="">
+              <img src="Top catagories/winter.webp" alt="">
+              <img src="Top catagories/fig.webp" alt="">
+              <img src="Top catagories/toteebag_comicsense.webp" alt="">
+              <img src="Top catagories/woven-keychains.webp" alt="">
+              <img src="Top catagories/manga.webp" alt="">
+              <img src="Top catagories/cosplay_comicsense.webp" alt="">
+              <img src="Top catagories/shirts-1.webp" alt="">
+
+            </div>
+
+            <h1 align="center">Figurines</h1>
+
+            <div id="ListProduct2" class="ListProduct">
+
+            </div>
+     
+            <h1 align="center">Top Anime</h1>
+            <div class="Top">
+              <img src="top anime/onepiece_catega_comicsense.webp" alt="">
+              <img src="top anime/chainsaw_catega.webp" alt="">
+              <img src="top anime/jujutsu_catega_comicsense.webp" alt="">
+              <img src="top anime/aot_catega_comicsense.webp" alt="">
+              <img src="top anime/demonslayer_catega_comicsense.webp" alt="">
+              <img src="top anime/dbz_catega_comicsense.webp" alt="">
+              <img src="top anime/tokyo_catega_comicsense.webp" alt="">
+              <img src="top anime/senpai_catega_comicsense.webp" alt="">
+
+            </div>
+
+            <h1 align="center">Manga</h1>
+            
+            <div id="ListProduct3" class="ListProduct">
+
+            </div>
+
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="ab">
+        <b>Original Artwork</b>
+        <p>Designs made by artists from around the world and not<br> google.</p>
+      </div>
+
+      <div class="ab">
+        <b>since 2016</b>
+        <p> Making sugoi anime merch since 2016. <br>
+          Watching anime since birth (kind of).</p>
+      </div>
+
+      <div class="ab">
+        <b>Ready to ship</b>
+        <p>One of the fastest shipping time in the industry as all <br> products are already in stock and not
+          made on order.</p>
+      </div>
+    </div>
+
+    <div class="footer1">
+      <div class="ab">
+        <b>Main Links</b>
+        <p>New Arrivals</p>
+        <p>Gift Combos</p>
+        <p>Clearance Zone</p>
+        <p>Coupons & Offers</p>
+        <p>Photos & Reviews</p>
+      </div>
+
+      <div class="ab">
+        <b>Side Links</b>
+        <p>FAQ</p>
+        <p>100 Days Return policy</p>
+        <p>About us</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+      </div>
+
+      <div class="ab">
+        <ul>
+          <p id="p">Also Available on:</p>
+          <li>Amazon</li>
+          <li>Flipkart</li>
+          <li>Myntra</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer">
+      <p>All artworks posted on this website is intended as fan art and is not purported to be official
+        merchandise unless indicated otherwise. If you have any issues regarding the artwork do write in to us
+        at care@comicsense.xyz.
+
+        Copyright © 2024 ComicSense</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
